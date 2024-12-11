@@ -10,7 +10,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  // Track current theme mode (light or dark)
   bool _isDarkTheme = false;
 
   void _toggleTheme() {
