@@ -10,4 +10,5 @@ class Taskmo with _$Taskmo{
     required bool completed,
   }) = _Taskmo;
   factory Taskmo.fromJson(Map<String, dynamic> json) => _$TaskmoFromJson(json);
+  
 }
