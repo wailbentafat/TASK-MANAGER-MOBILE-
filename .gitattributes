@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ensure Dart files are treated as Dart code
+*.dart linguist-language=Dart
+
+# Exclude generated or build-related files from language detection
+build/* linguist-vendored
+.dart_tool/* linguist-vendored
+.pub/* linguist-vendored
+
+# Exclude dependency and configuration files
+*.log linguist-vendored
+pubspec.lock linguist-vendored
+.idea/* linguist-vendored
+.flutter-plugins* linguist-vendored
